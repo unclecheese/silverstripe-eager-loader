@@ -1,0 +1,23 @@
+{
+    "name": "unclecheese/silerstripe-eager-loader",
+    "description": "Adds eager loading functionality to DataLists to prevent unnecessary queries",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "orm", "datalist"],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Uncle Cheese",
+            "email": "unclecheese@leftandmain.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "UncleCheese\\EagerLoader\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
